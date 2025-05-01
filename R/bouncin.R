@@ -10,7 +10,7 @@
 #' bouncin(30,720,720)
 #' @export
 
-library(tibble)
+library(purr)
 
 bouncin <- function(n_points, w, h) {
   cx <- w / 2
