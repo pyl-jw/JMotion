@@ -1,0 +1,12 @@
+Package: JMotion
+Title: Package for Analyzing data related to Animation
+Version: 1.0.0
+Author@R:
+	person("John", "Westbrook", , "johnwestbrook@usf.edu", role = c("aut", "cre"))
+Description: Contains functions geared towards motion graphics and music.
+	Created as a set of animation tools for aspects of motion, such as 
+	matching music to frame timing and generating paths for moving objects.
+Depends: R (>= 4.3.3)
+License: CC0
+LazyData: true
+RoxygenNote: 7.3.2
